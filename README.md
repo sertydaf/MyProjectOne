@@ -1,2 +1,3 @@
-# avtoclicker
-My project on Yandex lyceum
+# autoclicker
+## Описание:
+программа кликер, которая записывает действия пользователя и повторяет их.
