@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Shop</class>
+ <widget class="QMainWindow" name="Shop">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>770</width>
+    <height>326</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>381</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: rgb(255, 255, 255);
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+border: 2px solid rgba(0, 0, 0, 230);
+border-color:  rgb(0, 0, 0)
+}
+
+QPushButton:hover {
+background-color: rgb(158, 158, 158);
+color: black;
+border-radius: 10px;
+border-color:  rgb(0, 0, 0)
+}</string>
+    </property>
+    <property name="text">
+     <string>Улучшить количество работника(ов)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>150</y>
+      <width>381</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: rgb(255, 255, 255);
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+border: 2px solid rgba(0, 0, 0, 230);
+border-color:  rgb(0, 0, 0)
+}
+
+QPushButton:hover {
+background-color: rgb(158, 158, 158);
+color: black;
+border-radius: 10px;
+border-color:  rgb(0, 0, 0)
+}</string>
+    </property>
+    <property name="text">
+     <string>Улучшить скорость работника(ов)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>220</y>
+      <width>381</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: rgb(255, 255, 255);
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+border: 2px solid rgba(0, 0, 0, 230);
+border-color:  rgb(0, 0, 0)
+}
+
+QPushButton:hover {
+background-color: rgb(158, 158, 158);
+color: black;
+border-radius: 10px;
+border-color:  rgb(0, 0, 0)
+}</string>
+    </property>
+    <property name="text">
+     <string>Улучшить умения работника(ов)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>80</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+border: 2px solid rgba(0, 0, 0, 230);
+border-color:  rgb(0, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>Куплено: 0 раз</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>150</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+border: 2px solid rgba(0, 0, 0, 230);
+border-color:  rgb(0, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>Куплено: 0 раз</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>220</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+border: 2px solid rgba(0, 0, 0, 230);
+border-color:  rgb(0, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>Куплено: 0 раз</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>80</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+border: 2px solid rgba(0, 0, 0, 230);
+border-color:  rgb(0, 0, 0)
+</string>
+    </property>
+    <property name="text">
+     <string>Стоимость: 1000</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>150</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+border: 2px solid rgba(0, 0, 0, 230);
+border-color:  rgb(0, 0, 0)
+</string>
+    </property>
+    <property name="text">
+     <string>Стоимость: 100</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>220</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+border: 2px solid rgba(0, 0, 0, 230);
+border-color:  rgb(0, 0, 0)
+</string>
+    </property>
+    <property name="text">
+     <string>Стоимость: 100</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>761</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+border: 2px solid rgba(0, 0, 0, 230);
+border-color:  rgb(0, 0, 0)
+</string>
+    </property>
+    <property name="text">
+     <string>                                                      Магазин</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>770</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
